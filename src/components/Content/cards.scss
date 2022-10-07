@@ -1,3 +1,103 @@
+.card1{
+    width: 100%;
+    height: 40vh;
+    background: #FFF0E3;
+    margin-bottom: 10%;
+    // border: 1px solid red;
+}
+
+.card1 > div:nth-child(1){
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.card1 > div:nth-child(2){
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    font-size: small;
+    display: flex;
+}
+.card1 > div:nth-child(3){
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card1 > div:nth-child(3) > img{
+    width: 100%;
+    height: 100%;
+    // border: 1px solid red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.slide{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    // border: 1px solid red;
+}
+
+.slide > div{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+}
+.slide > div > img{
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+.marquee-wrapper {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    width: 100%;
+    // border: 1px solid red;
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:normal;
+    transform: translateX(0);
+    img {
+        width: 120px;
+      padding: 1em;
+    }
+  }
+  
+  @keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+  }
+
+  .card2{
+    width: 90%;
+    margin: auto;
+  }
+  .card2 > img{
+    width: 100%;
+  }
+
 @media only screen and (max-width: 600px) {
 
     .card1{
@@ -47,7 +147,7 @@
         justify-content: center;
         align-items: center;
         overflow-x: scroll;
-        border: 1px solid red;
+        // border: 1px solid red;
     }
 
     .slide > div{
@@ -59,10 +159,46 @@
         // border: 1px solid red;
     }
     .slide > div > img{
-        width: 80%;
+        width: 90%;
+        margin-left: 30px;
     }
+
+
+    .marquee-wrapper {
+        overflow: hidden;
+      }
+      
+      .marquee {
+        width: 100%;
+        // border: 1px solid red;
+        display: flex;
+        animation-name: marquee;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction:normal;
+        transform: translateX(0);
+        img {
+            width: 120px;
+          padding: 1em;
+        }
+      }
+      
+      @keyframes marquee {
+        from {transform: translateX(0);}
+        to {transform: translateX(-100%);}
+      }
+
+      .card2{
+        width: 90%;
+        margin: auto;
+      }
+      .card2 > img{
+        width: 100%;
+      }
 
 
 
 
 }
+

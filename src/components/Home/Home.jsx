@@ -1,5 +1,6 @@
 import React from 'react'
 import Card1 from '../Content/Card1'
+import Card2 from '../Content/Card2'
 import Slide from '../Content/Slide'
 import Navbar from '../Navbar/Navbar'
 import PreNav from '../PreNav/PreNav'
@@ -19,6 +20,8 @@ const Home = () => {
       <Card1 />
       
       <Slide />
+
+      <Card2 />
       
     </div>
   )

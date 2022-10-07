@@ -34,15 +34,40 @@ const Slide = () => {
         {
             id : 6,
             img : meesho
-        }
+        },
+        {
+            id : 7,
+            img : ajio
+        },
+        {
+            id : 8,
+            img : tata
+        },
+        {
+            id : 9,
+            img : nykaa
+        },
+        {
+            id : 10,
+            img : flipkart
+        },
+        {
+            id : 11,
+            img : amazon
+        },
+        {
+            id : 12,
+            img : meesho
+        },
+        
     ]
 
   return (
-    <div className='slide'>
+    <div className='slide marquee-wrapper'>
       {
         Images.map((el)=>{
             return(
-                <div key={el.id}>
+                <div className='marquee' key={el.id}>
                   <img src={el.img} />
                 </div>
             )
