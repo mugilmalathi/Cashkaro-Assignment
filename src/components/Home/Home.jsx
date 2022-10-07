@@ -17,7 +17,7 @@ const Home = () => {
       <Search />
 
       <Card1 />
-
+      
       <Slide />
       
     </div>
