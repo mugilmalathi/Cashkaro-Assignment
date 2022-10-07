@@ -1,4 +1,5 @@
 import React from 'react'
+import Brand from '../Content/Brand'
 import Card1 from '../Content/Card1'
 import Card2 from '../Content/Card2'
 import Card3 from '../Content/Card3'
@@ -25,6 +26,8 @@ const Home = () => {
       <Card2 />
 
       <Card3 />
+
+      <Brand />
       
     </div>
   )
