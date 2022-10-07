@@ -364,6 +364,35 @@ border: 1px solid #FFE600;
           }
       }
 
+      .trend{
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        >div:nth-child(1){
+          font-size: 25px;
+          font-weight: bold;
+          padding-bottom: 2%;
+        }
+        >div:nth-child(2){
+          padding-bottom: 5%;
+        }
+        >div:nth-child(3){
+          width: 100%;
+          >div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid silver;
+            height: 20%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+          }
+        }
+        >div:nth-child(4){
+          margin-top: 10%;
+        }
+      }
+
 
 
 }
