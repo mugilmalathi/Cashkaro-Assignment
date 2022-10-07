@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+
+    .search{
+        width: 100%;
+        height: 10vh;
+        border: 1px solid red;
+    }
+
+    .search-in{
+        width: 90%;
+        height: 70%;
+        margin: auto;
+        border: 1px solid transparent;
+        background: #F4F4F4;
+        display: flex;
+    }
+
+    .search-in > div:nth-child(1){
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+    }
+    .search-in > div:nth-child(2){
+        width: 85%;
+        height: 100%;
+        border: 1px solid red;
+    }
+
+
+}
