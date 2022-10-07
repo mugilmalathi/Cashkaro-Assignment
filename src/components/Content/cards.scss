@@ -341,6 +341,29 @@ border: 1px solid #FFE600;
         margin-bottom: 20%;
       }
 
+      .offer{
+        width: 100%;
+          >div:nth-child(1){
+            width: 90%;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+          }
+          >div:nth-child(2){
+            width: 90%;
+            margin: auto;
+            font-size: small;
+            color: gray;
+            padding-top: 2%;
+            padding-bottom: 5%;
+          }
+          >div:nth-child(3){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      }
+
 
 
 }
