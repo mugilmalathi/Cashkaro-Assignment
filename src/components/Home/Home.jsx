@@ -3,6 +3,7 @@ import Brand from '../Content/Brand'
 import Card1 from '../Content/Card1'
 import Card2 from '../Content/Card2'
 import Card3 from '../Content/Card3'
+import NewOnCash from '../Content/NewOnCash'
 import Slide from '../Content/Slide'
 import Navbar from '../Navbar/Navbar'
 import PreNav from '../PreNav/PreNav'
@@ -28,6 +29,8 @@ const Home = () => {
       <Card3 />
 
       <Brand />
+
+      <NewOnCash />
       
     </div>
   )

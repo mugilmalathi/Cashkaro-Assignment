@@ -239,6 +239,7 @@ border: 1px solid #FFE600;
 
       .brand{
         width: 100%;
+        margin-bottom: 5%;
       }
 
       .brand>div:nth-child(1){
@@ -318,6 +319,26 @@ border: 1px solid #FFE600;
             font-size: small;
           }
         }
+      }
+
+      .new{
+        width: 100%;
+        height: 50vh;
+        background: #F2F7FC;
+        >div:nth-child(1){
+          width: 80%;
+          margin: auto;
+          color: #0052CC;
+          font-size: 25px;
+          font-weight: bolder;
+          padding-top: 5%;
+        }
+        >div:nth-child(2){
+          width: 80%;
+          margin: auto;
+          margin-top: 2%;
+        }
+        margin-bottom: 20%;
       }
 
 
