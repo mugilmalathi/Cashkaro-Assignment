@@ -3,6 +3,7 @@ import Brand from '../Content/Brand'
 import Card1 from '../Content/Card1'
 import Card2 from '../Content/Card2'
 import Card3 from '../Content/Card3'
+import MobileCards from '../Content/MobileCards'
 import NewOnCash from '../Content/NewOnCash'
 import Offer from '../Content/Offer'
 import Slide from '../Content/Slide'
@@ -37,6 +38,8 @@ const Home = () => {
       <Offer />
 
       <Trending />
+
+      <MobileCards />
       
     </div>
   )
