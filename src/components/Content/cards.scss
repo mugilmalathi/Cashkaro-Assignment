@@ -338,6 +338,12 @@ border: 1px solid #FFE600;
           margin: auto;
           margin-top: 2%;
         }
+        >div:nth-child(3){
+          width: 100%;
+          >img{
+            width: 100%;
+          }
+        }
         margin-bottom: 20%;
       }
 
@@ -389,7 +395,12 @@ border: 1px solid #FFE600;
           }
         }
         >div:nth-child(4){
+          width: 100%;
           margin-top: 10%;
+          >img{
+            width: 100%;
+            // border: 1px solid red;
+          }
         }
       }
 
@@ -437,6 +448,67 @@ border: 1px solid #FFE600;
           margin: auto;
           color: #0052CC;
           cursor: pointer;
+        }
+        >div:nth-child(5){
+          width: 100%;
+          height: 40vh;
+          margin-top: 5%;
+          background: #0036DA;
+          >div:nth-child(1){
+            width: 90%;
+            margin: auto;
+            font-size: 25px;
+            font-weight: bold;
+            padding-bottom: 2%;
+            color: white;
+            padding-top: 5%;
+          }
+          >div:nth-child(2){
+            width: 90%;
+            margin: auto;
+            font-size: small;
+            padding-bottom: 5%;
+            color: white;
+          }
+          >div:nth-child(3){
+            width: 90%;
+            margin: auto;
+            display: flex;
+            gap: 20px;
+            >div:nth-child(1){
+              width: 50%;
+              height: 150px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 25px;
+              font-weight: bold;
+              background: #fff;
+              text-align: center;
+            }
+            >div:nth-child(2){
+              width: 50%;
+              height: 150px;
+              background: #7E2DE5;
+              >div{
+                padding-left: 20px;
+                color: #fff;
+              }
+              >div:nth-child(1){
+                padding-top: 20px;
+                font-size: 25px;
+                color: #FFE600;
+              }
+              >button{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 60px;
+                height: 30px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+              }
+            }
+          }
         }
       }
 

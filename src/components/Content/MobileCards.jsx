@@ -61,6 +61,19 @@ const MobileCards = () => {
         }
       </div>
       <div>View More --></div>
+      <div>
+        <div>Hey there, Ayushman!</div>
+        <div>We wanted to bring more relevant offers to you.  Kindly update your preferences</div>
+        <div>
+          <div>Select offers that interests you</div>
+          <div>
+            <div>Fashion</div>
+            <div>100+ Offers</div>
+            <div>12-24% Cashback</div>
+            <button>Like</button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
