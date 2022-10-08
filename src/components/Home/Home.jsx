@@ -8,6 +8,7 @@ import NewOnCash from '../Content/NewOnCash'
 import Offer from '../Content/Offer'
 import Slide from '../Content/Slide'
 import Trending from '../Content/Trending'
+import Ustra from '../Content/Ustra'
 import Navbar from '../Navbar/Navbar'
 import PreNav from '../PreNav/PreNav'
 import Search from '../Search/Search'
@@ -40,6 +41,8 @@ const Home = () => {
       <Trending />
 
       <MobileCards />
+
+      <Ustra />
       
     </div>
   )
